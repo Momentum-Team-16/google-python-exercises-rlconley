@@ -15,7 +15,13 @@
 # add 'ly' instead.
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
+MY_CONSTANT = "This is a thing I want to be available everywhere"
+# This is how we do global scope in Python. Available anywhere in the program.
+# Convention to write constants in ALL CAPS
+
+
 def verbing(s):
+  print(MY_CONSTANT)
   # +++your code here+++
   return
 
